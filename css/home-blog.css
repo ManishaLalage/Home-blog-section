@@ -64,7 +64,9 @@ section{
   .we__offer_card .course_img .img-text{
     position: absolute;
     width: 100%;
-background-color: orangered;
+    background: -webkit-linear-gradient(0deg,#fa2424, #fb8721);
+
+/* background-color: orangered; */
       /* margin-left: 10%; */
     bottom: 0;
     /* left: 0; */
@@ -72,6 +74,11 @@ background-color: orangered;
     display: flex;
     flex-wrap: wrap;
     height: 50px;
+    /* border-radius: 40px; */
+    border-top-right-radius: 30px;
+    /* border-top-right-radius: 20px; */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 60px;
   }
 
 .img-text .dat{
@@ -163,7 +170,10 @@ margin-top: -12px;
     background-color:white; 
 border-radius: 50%;
 margin-top:-19px;
- border: 4px solid rgb(221, 255, 0);
+ border: 4px solid  #fb8721;
+
+
+
  width: 80px;
  height: 80px;
  /* color: white; */
@@ -174,8 +184,9 @@ margin-top:-19px;
 }
 
 .sub-text{
-  padding: 10px 20px 10px 20px;
-  background-color: #4549bf;
+  /* padding: 10px 20px 10px 20px; */
+  /* background-color: #4549bf; */
+  padding-left: 20px;
   color: white;
   font-size: 1.1rem;
   font-weight: 500;
