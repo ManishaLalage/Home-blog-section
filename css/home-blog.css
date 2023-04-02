@@ -27,7 +27,7 @@
 
 /* section2 */
 section{
-  background-color: #9a9bb2;
+  /* background-color: #9a9bb2; */
     transition: all 0.4s ease;
     padding: 130px 2%;
 
@@ -64,6 +64,7 @@ section{
   .we__offer_card .course_img .img-text{
     position: absolute;
     width: 100%;
+    /* margin-left: 5px; */
     background: -webkit-linear-gradient(0deg,#fa2424, #fb8721);
 
 /* background-color: orangered; */
@@ -81,48 +82,9 @@ section{
     border-bottom-left-radius: 60px;
   }
 
-.img-text .dat{
 
- 
-    /* margin-right: 70%; */
-    width: 80px;
-  display: flex; 
-  /* flex-wrap: wrap; */
-  flex-direction: column;
-  padding: 5px 0px 5px 0px;
-   /* padding: 10px -10px; */
-    border-radius: 50%;
-    background-color: white;
-    border: 4px solid rgb(204, 255, 0);
-    /* background-color: #21fb50; */
-float: left;
-margin-left: -60px;
 
-/* margin-bottom: -10px; */
-}
 
-.date .sub-date{
-   
-}
-.img-text .date .numbe{ 
-    background: -webkit-linear-gradient(0deg,#fa2424, #fb8721);
-    background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 1.7rem;
-  font-weight: 700;
-    /* border-bottom: 1px solid red; */
-       /* display: inline; */
-/* background-color: aquamarine; */
-}
-.img-text .date .mont{
-    /* display: inline-block; */
-/* background-color: chartreuse;     */
-padding-bottom: 10px;
-color: #9a9bb2;
-font-size: 0.8rem;
-font-weight: 700;
-}
   .we__offer_card .course_img .main-text .text{
     /* color: white; */
    /* margin-top: 60px; */
@@ -158,10 +120,6 @@ margin-top: -12px;
   .img-text .main-text .text{
     /* background-color: rgb(221, 255, 0); */
     padding: 20px;
-    /* width: 100%; */
-    /* padding: 10px; */
-    /* padding: 10px 10px 10px 60px; */
-     /* margin-top: 80px;  */
    margin-bottom: -10px;
      /* margin-top: -133PX; */
 /* display: flex; */
@@ -171,16 +129,9 @@ margin-top: -12px;
 border-radius: 50%;
 margin-top:-19px;
  border: 4px solid  #fb8721;
-
-
-
  width: 80px;
  height: 80px;
- /* color: white; */
- /* padding:5px 5px 5px 5px; */
- /* linear-gradient(0deg,#fa2424, #fb8721); */
-/* margin-bottom:-20px ; */
-
+ /* margin-left: 10px; */
 }
 
 .sub-text{
@@ -202,7 +153,7 @@ font-size: 2rem;
 font-weight: 700;
 /* padding-top: 5px; */
 /* border: 5px solid; */
-background-color: aqua;
+/* background-color: aqua; */
   }
   .main-date .month{
     /* padding-bottom: 10px; */
@@ -213,16 +164,25 @@ font-weight: 600;
   }
 
 
+  .we__offer_card  .course_img{
+    background-color:white ;
+        /* border-bottom-left-radius: 60px; */
 
+  }
 
   .we__offer_card  .course_img  img {
     width: 100%;
     height: 360px;
     object-position: center;
+    border-bottom-left-radius: 40px;
+
+
   }
 
   .we__offer_content {
     padding: 30px 20px;
+    /* border-radius: 40px; */
+    /* background-color: aquamarine; */
   }
   
   .we__offer_content .blog-icon {
@@ -264,7 +224,8 @@ padding-left: 20px;
   .we__offer_content .subcontent p {
 
     font-size: 1.1rem;
-    color: rgb(71, 71, 110);
+    color:rgb(159 159 167);
+    /* color: rgb(0, 0, 12); */
     padding: 0px 0px 20px 10px;
     font-weight: 500;
   }
@@ -280,27 +241,44 @@ padding-left: 20px;
   }
 
   .we__offer_content a{
-    color: rgb(71, 71, 110);
+    /* color: rgb(71, 71, 110); */
+    background: -webkit-linear-gradient(0deg,#fa2424, #fb8721);
+    background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* background-color : aqua; */
+  /* border-bottom: 1.5px solid orangered; */
 
 }
   
   .we__offer_content a:hover{
-    color: orangered;
+
+    background: -webkit-linear-gradient(0deg,rgb(71, 71, 110), rgb(71, 71, 110) );
+    background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    /* background-color: rgb(71, 71, 110); */
+/* border: chartreuse; */
+    /* color: oranger; */
   }
   .course_btn {
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
     font-weight: 650;
     font-size: 1.1rem;
+        border-bottom: 1.5px solid orangered   ;
+
     /* margin:7%; */
     margin-left: 2%;
   }
   .course_btn span{
     /* background-color: aqua; */
-    border-bottom: 1.5px solid #868689    ;
+    /* border-bottom: 1.5px solid #868689    ; */
   }
   .course_btn:hover {
     transition-duration: 1sec;
     cursor: pointer;
+    /* color: rgb(71, 71, 110); */
+
   }
 
 
@@ -311,14 +289,13 @@ padding-left: 20px;
 
 @media (max-width: 910px) {
 
-.we__offer_content .blog-icon {
+/* .we__offer_content .blog-icon {
  
   font-size: 0.9rem;
-  /* font-weight: 500; */
   line-height: 1.6;
 
   gap: 0.9rem;
-}
+} */
 
 }
 
